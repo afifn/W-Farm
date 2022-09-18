@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:cardElevation="@dimen/_4sdp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:padding="@dimen/_16sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:fontFamily="@font/source_sans_pro_semibold"
+            android:textSize="@dimen/_16ssp"
+            android:textColor="@color/hitam_terang"
+            tools:text="Afif Nor Y"/>
+
+        <ImageView
+            android:id="@+id/view"
+            android:layout_width="1dp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_alignBottom="@+id/txt_nama"
+            android:layout_alignTop="@id/txt_nama"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_toEndOf="@+id/txt_nama"
+            android:background="@color/hitam_terang" />
+
+        <TextView
+            android:id="@+id/txt_jumlah_ekor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/view"
+            android:layout_alignBottom="@id/view"
+            android:layout_toEndOf="@+id/view"
+            android:textColor="@color/red"
+            android:fontFamily="@font/source_sans_pro"
+            android:textSize="@dimen/_14ssp"
+            tools:text="200 Ekor" />
+
+        <TextView
+            android:id="@+id/txt_tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/txt_jumlah_ekor"
+            android:fontFamily="@font/source_sans_pro"
+            android:textAlignment="textEnd"
+            android:textColor="@color/hitam_terang"
+            android:textSize="@dimen/_12ssp"
+            tools:text="02-20-2022" />
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_below="@id/txt_nama"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:backgroundTint="@color/red"
+                android:background="@drawable/ic_weight"/>
+            <TextView
+                android:id="@+id/txt_beban"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_2sdp"
+                android:textSize="@dimen/_9ssp"
+                android:background="@drawable/bg_yellow_rounded"
+                android:textColor="@color/white"
+                android:padding="@dimen/_4sdp"
+                tools:text="400 Kg"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/layout1"
+            android:layout_alignBottom="@+id/layout1"
+            android:layout_toEndOf="@+id/layout1"
+            android:gravity="center_vertical"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginHorizontal="@dimen/_4sdp"
+                android:background="@drawable/ic_oval_red">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/source_sans_pro"
+                    android:text="Rp"/>
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/txt_harga_kilo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_2sdp"
+                android:textSize="@dimen/_9ssp"
+                android:background="@drawable/bg_yellow_rounded"
+                android:textColor="@color/white"
+                android:padding="@dimen/_4sdp"
+                tools:text="Rp 40,000/Kg"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_harga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_tanggal"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="textEnd"
+            android:layout_marginVertical="@dimen/_8sdp"
+            android:layout_toEndOf="@+id/layout2"
+            android:fontFamily="@font/source_sans_pro_semibold"
+            android:textColor="@color/red"
+            android:textSize="@dimen/_16ssp"
+            tools:text="10,000,000" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

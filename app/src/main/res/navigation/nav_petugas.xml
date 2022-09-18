@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.kuycoding.wijayafarm.ui.petugas.fragment.PetugasHomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_petugas_home" />
+
+    <fragment
+        android:id="@+id/navigation_ayam"
+        android:name="com.kuycoding.wijayafarm.ui.petugas.fragment.PetugasAyamFragment"
+        android:label="@string/ayam"
+        tools:layout="@layout/fragment_petugas_ayam" />
+
+    <fragment
+        android:id="@+id/navigation_pengeluaran"
+        android:name="com.kuycoding.wijayafarm.ui.petugas.fragment.PetugasPengeluaranFragment"
+        android:label="@string/pengeluaran"
+        tools:layout="@layout/fragment_petugas_pengeluaran" />
+
+    <fragment
+        android:id="@+id/navigation_panen"
+        android:name="com.kuycoding.wijayafarm.ui.petugas.fragment.PetugasPanenFragment"
+        android:label="@string/panen"
+        tools:layout="@layout/fragment_petugas_panen"/>
+</navigation>

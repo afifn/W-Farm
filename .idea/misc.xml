@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/bg_red_circler.xml" value="0.1225" />
+        <entry key="app/src/main/res/drawable/bg_rounded.xml" value="0.1225" />
+        <entry key="app/src/main/res/drawable/bg_yellow_rounded.xml" value="0.1225" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_pemilik_laporan_ayam.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_pemilik_laporan_panen.xml" value="0.158203125" />
+        <entry key="app/src/main/res/layout/activity_pemilik_laporan_pengeluaran.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_pemilik_menu.xml" value="0.1716485507246377" />
+        <entry key="app/src/main/res/layout/activity_petugas.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_profil.xml" value="0.22552083333333334" />
+        <entry key="app/src/main/res/layout/dialog_form_add_bibit.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/dialog_form_hidupmati.xml" value="0.20989583333333334" />
+        <entry key="app/src/main/res/layout/dialog_form_panen.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/dialog_form_pengeluaran.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/dialog_form_sesuaikan_kondisi.xml" value="0.13680555555555557" />
+        <entry key="app/src/main/res/layout/dialog_form_user.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/layout/dialog_logout.xml" value="0.22447916666666667" />
+        <entry key="app/src/main/res/layout/form_add_bibit.xml" value="0.19739583333333333" />
+        <entry key="app/src/main/res/layout/fragment_pemilik_home.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_pemilik_laporan.xml" value="0.1824074074074074" />
+        <entry key="app/src/main/res/layout/fragment_pemilik_user.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/layout/fragment_petugas_ayam.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/fragment_petugas_home.xml" value="0.13680555555555557" />
+        <entry key="app/src/main/res/layout/fragment_petugas_panen.xml" value="0.13" />
+        <entry key="app/src/main/res/layout/fragment_petugas_pengeluaran.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_panen.xml" value="0.158203125" />
+        <entry key="app/src/main/res/layout/item_pengeluaran.xml" value="0.158203125" />
+        <entry key="app/src/main/res/layout/item_user.xml" value="0.19537037037037036" />
+        <entry key="app/src/main/res/layout/spinner_item.xml" value="0.1824074074074074" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.2109375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

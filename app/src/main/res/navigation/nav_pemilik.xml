@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_pemilik"
+    app:startDestination="@+id/nav_pemilik_home">
+    <fragment
+        android:id="@+id/nav_pemilik_home"
+        android:name="com.kuycoding.wijayafarm.ui.pemilik.fragment.PemilikHomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_pemilik_home"/>
+    <fragment
+        android:id="@+id/nav_pemilik_laporan"
+        android:name="com.kuycoding.wijayafarm.ui.pemilik.fragment.PemilikLaporanFragment"
+        android:label="@string/laporan"
+        tools:layout="@layout/fragment_pemilik_laporan"/>
+    <fragment
+        android:id="@+id/nav_pemilik_profil"
+        android:name="com.kuycoding.wijayafarm.ui.pemilik.fragment.PemilikUserFragment"
+        android:label="@string/profil"
+        tools:layout="@layout/fragment_pemilik_user"/>
+</navigation>

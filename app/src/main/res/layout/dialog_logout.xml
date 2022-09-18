@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="@dimen/_4sdp"
+    app:cardCornerRadius="@dimen/_10sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_16sdp">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/source_sans_pro_semibold"
+            android:text="Yakin Anda ingin keluar?"
+            android:textSize="@dimen/_16ssp" />
+
+        <Button
+            android:id="@+id/btn_ya"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            android:layout_toStartOf="@+id/bnt_tidak"
+            android:layout_marginHorizontal="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:text="Ya"
+            android:textSize="@dimen/_14ssp"
+            android:fontFamily="@font/source_sans_pro_semibold"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/bnt_tidak"
+            android:layout_below="@id/text"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:background="@null"
+            android:textSize="@dimen/_14ssp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:fontFamily="@font/source_sans_pro_semibold"
+            android:backgroundTint="@color/yellow"
+            android:layout_alignParentEnd="true"
+            android:text="Tidak"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

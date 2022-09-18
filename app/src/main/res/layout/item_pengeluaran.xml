@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="@dimen/_4sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_16sdp">
+        <TextView
+            android:id="@+id/txt_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:fontFamily="@font/source_sans_pro_semibold"
+            android:textSize="@dimen/_16ssp"
+            android:textColor="@color/hitam_terang"
+            tools:text="Beli Pakan"/>
+
+        <ImageView
+            android:id="@+id/view"
+            android:layout_width="1dp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_alignBottom="@+id/txt_nama"
+            android:layout_alignTop="@id/txt_nama"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_toEndOf="@+id/txt_nama"
+            android:background="@color/hitam_terang" />
+
+        <TextView
+            android:id="@+id/txt_satuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/view"
+            android:layout_alignBottom="@id/view"
+            android:layout_toEndOf="@+id/view"
+            android:fontFamily="@font/source_sans_pro"
+            android:textColor="@color/hitam_terang"
+            android:textSize="@dimen/_14ssp"
+            tools:text="1 Truk" />
+
+        <TextView
+            android:id="@+id/txt_tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/txt_satuan"
+            android:fontFamily="@font/source_sans_pro"
+            android:textAlignment="textEnd"
+            android:textColor="@color/hitam_terang"
+            android:textSize="@dimen/_12ssp"
+            tools:text="02-20-2022" />
+
+        <TextView
+            android:id="@+id/tpetugas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_sans_pro"
+            android:layout_below="@id/txt_nama"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/red"
+            android:layout_marginVertical="@dimen/_4sdp"
+            android:textSize="@dimen/_14ssp"
+            android:text="Petugas: "/>
+
+        <TextView
+            android:id="@+id/txt_petugas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_nama"
+            android:layout_alignBottom="@+id/tpetugas"
+            android:layout_marginVertical="@dimen/_4sdp"
+            android:layout_toEndOf="@+id/tpetugas"
+            android:fontFamily="@font/source_sans_pro"
+            android:textColor="@color/hitam_terang"
+            android:textSize="@dimen/_14ssp"
+            android:layout_marginHorizontal="@dimen/_4sdp"
+            tools:text="Ahmad san" />
+
+        <TextView
+            android:id="@+id/txt_harga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_tanggal"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="textEnd"
+            android:layout_marginVertical="@dimen/_4sdp"
+            android:layout_toEndOf="@+id/txt_petugas"
+            android:fontFamily="@font/source_sans_pro_semibold"
+            android:textColor="@color/red"
+            android:textSize="@dimen/_16ssp"
+            tools:text="100.000" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
